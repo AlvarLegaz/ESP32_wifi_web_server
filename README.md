@@ -1,4 +1,4 @@
-# ESP32WiFiConfig
+# ESP32WiFiWebServer
 
 Este repositorio contiene un proyecto para el ESP32 que permite configurar y controlar el dispositivo a través de una interfaz web. Utilizando `Preferences`, los usuarios pueden ingresar el SSID y la contraseña de su red Wi-Fi, los cuales son almacenados de manera persistente en la memoria del ESP32. El dispositivo opera en modo dual, funcionando tanto como estación (STA) para conectarse a redes Wi-Fi, como punto de acceso (AP) para permitir la configuración inicial. Incluye ejemplos de manejo de endpoints HTTP para controlar el estado de los pines GPIO y otras funcionalidades.
 
@@ -19,7 +19,7 @@ Este repositorio contiene un proyecto para el ESP32 que permite configurar y con
 
 ## Instalación
 
-1. Clona este repositorio: `git clone https://github.com/tuusuario/ESP32WiFiConfig.git`
+1. Clona este repositorio: `git clone https://github.com/AlvarLegaz/ESP32_wifi_web_server.git`
 2. Abre el proyecto en tu IDE de Arduino.
 3. Configura las dependencias necesarias.
 4. Carga el código en tu ESP32.
